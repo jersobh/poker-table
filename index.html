@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">  
+<head>
+    <meta charset="utf-8" />
+    <title>...</title>
+    <link rel="stylesheet" href="table.css"></link>
+
+
+    <meta name="description" content="...">
+    <meta name="author" content="...">
+    <!-- mobile viewport optimisation -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--[if lt IE 9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+    <![endif]-->  
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+
+</head>
+<body id="container">
+    <div class="table">
+	<div class="draw-table">
+	    <div class="card card-3D"></div>
+	    <div class="card card-3C"></div>
+            <div class="card card-2C"></div>
+            <div class="card card-3H"></div>
+            <div class="card card-2S"></div>
+	</div>
+	<div class="seat left-top avatar_1">
+            <div class="player-cards card-one"></div>
+            <div class="player-cards card-two"></div>
+        </div>
+	<div class="seat left-down avatar_3">
+            <div class="player-cards card-one"></div>
+            <div class="player-cards card-two"></div>
+        </div>
+	<div class="seat dealer"><span>Dealer</span></div>
+	<div class="seat right-top avatar_7">
+            <div class="player-cards card-one"></div>
+            <div class="player-cards card-two"></div>
+        </div>
+	<div class="seat right-down avatar_2">
+            <div class="player-cards card-one"></div>
+            <div class="player-cards card-two"></div>
+	</div>
+	<div class="seat bottom-left avatar_6">
+            <div class="player-cards card-one"></div>
+            <div class="player-cards card-two"></div>
+	</div>
+	<div class="seat bottom-right avatar_5">
+            <div class="player-cards card-one card-4S"></div>
+            <div class="player-cards card-two card-4H"></div>
+	</div>
+    </div>
+    <div class="footer">
+	<div class="actions">
+		<div class="button">
+		  Fold
+		</div>
+		<div class="button">
+		  Check
+		</div>
+		<div class="button">
+		  Raise
+		</div>
+	</div>
+    </div>
+
+
+<script src="js/main.js"></script>
+<script>
+draw()
+</script>
+</body>
+</html>
